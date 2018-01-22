@@ -74,7 +74,7 @@ body {
 
 /* Tags */
 .app .tags, .tags .content {
-  background-color: var(--bar-bg-color) !important;
+  background-color: var(--primary-bg-color) !important;
 }
 
 #tags-title-bar {
