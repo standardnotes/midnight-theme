@@ -58,6 +58,9 @@ body {
   background-color: var(--primary-bg-color) !important;
   border-color: var(--border-color) !important;
 }
+.app-bar .item.border {
+  border-color: var(--border-color) !important;
+}
 
 .app-bar .item.border {
   border-color: var(--border-color) !important;
@@ -293,6 +296,10 @@ body {
 
 .sn-component .body-text-color {
   color: var(--body-text-color);
+}
+
+.sn-component .border-color {
+  border-color: var(--border-color) !important;
 }
 
 /*# sourceMappingURL=dist.css.map */

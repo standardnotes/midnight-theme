@@ -61,6 +61,10 @@ body {
 .app-bar {
   background-color: var(--primary-bg-color) !important;
   border-color: var(--border-color) !important;
+
+  .item.border {
+    border-color: var(--border-color) !important;
+  }
 }
 
 .app-bar .item.border {
@@ -300,4 +304,8 @@ body {
 
 .sn-component .body-text-color {
  color: var(--body-text-color);
+}
+
+.sn-component .border-color {
+  border-color: var(--border-color) !important;
 }
