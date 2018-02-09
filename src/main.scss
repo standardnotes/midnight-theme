@@ -235,7 +235,7 @@ body {
 .editor-preview-active, .editor-preview-active-side {
   background-color: var(--primary-bg-color) !important;
   border: 0 !important;
-  border-left: 1px solid white !important;
+  border-left: 1px solid var(--border-color) !important;
 }
 
 .editor-preview-active {
