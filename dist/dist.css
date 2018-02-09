@@ -68,7 +68,7 @@ body {
 
 .section-title-bar {
   color: var(--foreground-color) !important;
-  background-color: var(--background-color) !important;
+  background-color: var(--primary-bg-color) !important;
 }
 
 .section-title-bar-header .title {
@@ -177,7 +177,11 @@ body {
 }
 
 .CodeMirror-selected {
-  background: var(--accessory-bg-color) !important;
+  background: var(--link-color) !important;
+}
+
+.CodeMirror-selectedtext {
+  color: white;
 }
 
 .CodeMirror-gutters {
@@ -224,6 +228,16 @@ body {
 
 .editor-toolbar a {
   color: var(--editor-text-color) !important;
+}
+
+.editor-preview-active, .editor-preview-active-side {
+  background-color: var(--primary-bg-color) !important;
+  border: 0 !important;
+  border-left: 1px solid white !important;
+}
+
+.editor-preview-active {
+  border: 0 !important;
 }
 
 /* Simple Markdown Editor */
