@@ -17,6 +17,13 @@
 }
 
 /* General */
+.windows-web ::-webkit-scrollbar, .windows-desktop ::-webkit-scrollbar, .linux-web ::-webkit-scrollbar, .linux-desktop ::-webkit-scrollbar {
+  border-left-color: var(--border-color) !important;
+}
+.windows-web ::-webkit-scrollbar-thumb, .windows-desktop ::-webkit-scrollbar-thumb, .linux-web ::-webkit-scrollbar-thumb, .linux-desktop ::-webkit-scrollbar-thumb {
+  /* background-color: var(--primary-bg-color) !important; */
+}
+
 ::selection {
   background: var(--link-color) !important;
   /* WebKit/Blink Browsers */
