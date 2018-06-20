@@ -1,6 +1,6 @@
 {
   "name": "sn-theme-midnight",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "main": "dist/dist.css",
   "devDependencies": {
     "grunt": "^1.0.1",
