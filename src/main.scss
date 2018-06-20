@@ -114,13 +114,12 @@ body {
 }
 
 .tags .tag.selected {
-  background-color: var(--primary-bg-color) !important;
+  background-color: var(--secondary-bg-color) !important;
 }
 
 .tags .tag:hover:not(.selected) {
-  background-color: var(--primary-bg-color) !important;
+  background-color: var(--secondary-bg-color) !important;
 }
-
 
 /* Notes */
 
