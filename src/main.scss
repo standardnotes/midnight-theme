@@ -134,7 +134,7 @@ body {
 
 #notes-title-bar {
   color: var(--ui-text-color) !important;
-  background-color: var(--bar-bg-color) !important;
+  background-color: var(--primary-bg-color) !important;
 }
 
 .notes .filter-section .filter-bar {
@@ -156,7 +156,7 @@ body {
 /* Editor */
 
 #editor-title-bar {
-  background-color: var(--bar-bg-color) !important;
+  background-color: var(--primary-bg-color) !important;
 }
 
 #editor-title-bar > .title > .input {
