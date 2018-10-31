@@ -246,6 +246,15 @@ body {
   color: var(--editor-text-color) !important;
 }
 
+.editor-toolbar a.active, .editor-toolbar a:hover {
+  border-color: transparent;
+  background: #454560;
+}
+
+.editor-toolbar.disabled-for-preview a:not(.no-disable) {
+  background: inherit;
+}
+
 .editor-preview-active, .editor-preview-active-side {
   background-color: var(--primary-bg-color) !important;
   border: 0 !important;
@@ -254,6 +263,11 @@ body {
 
 .editor-preview-active {
   border: 0 !important;
+}
+
+#sn-advanced-markdown-editor .editor-preview.editor-preview-active pre, #sn-advanced-markdown-editor .editor-preview-side.editor-preview-active-side pre {
+  background-color: var(--secondary-bg-color);
+  padding: 20px;
 }
 
 /* Simple Markdown Editor */
