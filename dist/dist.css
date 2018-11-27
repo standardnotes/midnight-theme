@@ -20,7 +20,7 @@
   --sn-desktop-titlebar-ui-hover-color: var(--blue-color);
 }
 
-.app.ng-scope {
+#app.ng-scope {
   animation: fadein .3s normal forwards ease-in-out;
   animation-iteration-count: 1;
   background-color: var(--primary-bg-color);
