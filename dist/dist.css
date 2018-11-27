@@ -20,6 +20,26 @@
   --sn-desktop-titlebar-ui-hover-color: var(--blue-color);
 }
 
+.app.ng-scope {
+  animation: fadein .3s normal forwards ease-in-out;
+  animation-iteration-count: 1;
+  background-color: var(--primary-bg-color);
+  opacity: 0;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 /* General */
 .windows-web ::-webkit-scrollbar, .windows-desktop ::-webkit-scrollbar, .linux-web ::-webkit-scrollbar, .linux-desktop ::-webkit-scrollbar {
   border-left-color: var(--border-color) !important;
