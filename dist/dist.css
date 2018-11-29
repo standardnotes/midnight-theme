@@ -21,10 +21,10 @@
 }
 
 #app.ng-scope {
-  animation: fadein .3s normal forwards ease-in-out;
+  animation: fadein .3s normal ease-in-out;
   animation-iteration-count: 1;
   background-color: var(--primary-bg-color);
-  opacity: 0;
+  opacity: 1;
 }
 
 @keyframes fadein {
