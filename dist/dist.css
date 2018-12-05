@@ -14,6 +14,11 @@
   --editor-text-color: #c7c7e0;
   --footer-link-color: #dbdbdb;
   --blue-color: #086dd6;
+  --sn-component-foreground-color: var(--ui-text-color);
+  --sn-component-background-color: var(--accessory-bg-color);
+  --sn-component-foreground-highlight-color: var(--blue-color);
+  --sn-component-outer-border-color: var(--border-color);
+  --sn-component-inner-border-color: var(--bar-bg-color);
   --sn-desktop-titlebar-bg-color: var(--primary-bg-color);
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--ui-text-color);
