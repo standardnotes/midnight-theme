@@ -14,15 +14,19 @@
   --editor-text-color: #c7c7e0;
   --footer-link-color: #dbdbdb;
   --blue-color: #086dd6;
-  --sn-component-foreground-color: var(--ui-text-color);
-  --sn-component-background-color: var(--accessory-bg-color);
-  --sn-component-foreground-highlight-color: var(--blue-color);
-  --sn-component-outer-border-color: var(--border-color);
-  --sn-component-inner-border-color: var(--bar-bg-color);
   --sn-desktop-titlebar-bg-color: var(--primary-bg-color);
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--ui-text-color);
   --sn-desktop-titlebar-ui-hover-color: var(--blue-color);
+  --sn-stylekit-shadow-color: var(--tertiary-bg-color);
+  --sn-stylekit-background-color: var(--primary-bg-color);
+  --sn-stylekit-border-color: var(--border-color);
+  --sn-stylekit-foreground-color: var(--ui-text-color);
+  --sn-stylekit-contrast-background-color: var(--secondary-bg-color);
+  --sn-stylekit-contrast-foreground-color: black;
+  --sn-stylekit-contrast-border-color: var(--border-color);
+  --sn-stylekit-paragraph-text-color: var(--ui-text-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
 }
 
 #app.ng-scope {
