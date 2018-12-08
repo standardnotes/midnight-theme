@@ -153,22 +153,6 @@
   padding: 20px;
 }
 
-/* Simple Markdown Editor */
-
-#simple-markdown {
-  background-color: var(--editor-bg-color) !important;
-  color: var(--editor-text-color) !important;
-}
-
-#simple-markdown #editor {
-  background-color: var(--editor-bg-color) !important;
-  color: var(--editor-text-color) !important;
-}
-
-#simple-markdown #column-resizer {
-  background-color: var(--secondary-bg-color) !important;
-}
-
 /* Plus Editor */
 
 #plus-editor .note-editor.note-frame.fullscreen .note-editable {
@@ -216,21 +200,21 @@
 }
 
 .sn-component .element-background-color {
- background-color: var(--element-background-color);
-}
-
-.sn-component .body-background-color {
- background-color: var(--body-background-color);
+  background-color: var(--sn-stylekit-secondary-background-color);
 }
 
 .sn-component .element-text-color {
- color: var(--element-text-color);
+  color: var(--sn-stylekit-secondary-foreground-color);
+}
+
+.sn-component .body-background-color {
+  background-color: var(--sn-stylekit-background-color);
 }
 
 .sn-component .body-text-color {
- color: var(--body-text-color);
+  color: var(--sn-stylekit-foreground-color);
 }
 
 .sn-component .border-color {
-  border-color: var(--border-color) !important;
+  border-color: var(--sn-stylekit-borderd-color) !important;
 }
