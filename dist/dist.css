@@ -1,24 +1,24 @@
 :root {
   --primary-bg-color: #292937;
   --secondary-bg-color: #313142;
-  --tertiary-bg-color: #20202b;
   --editor-bg-color: #202020;
   --border-color: #13131a;
-  --accessory-bg-color: #2d2d3d;
-  --bar-bg-color: #191922;
-  --menu-section-sep-color: #2f2f2f;
-  --menu-item-sep-color: rgba(0, 0, 0, 0.1);
   --ui-text-color: #d8d8d8;
-  --cell-text-color: #d6d6e1;
-  --link-color: #60a8f3;
-  --editor-text-color: #c7c7e0;
-  --footer-link-color: #dbdbdb;
-  --blue-color: #086dd6;
+  --sn-stylekit-info-color: #086DD6;
+  --sn-stylekit-info-contrast-color: white;
+  --sn-stylekit-neutral-color: #7c7c7c;
+  --sn-stylekit-neutral-contrast-color: white;
+  --sn-stylekit-success-color: #2B9612;
+  --sn-stylekit-success-contrast-color: white;
+  --sn-stylekit-warning-color: #f6a200;
+  --sn-stylekit-warning-contrast-color: white;
+  --sn-stylekit-danger-color: #F80324;
+  --sn-stylekit-danger-contrast-color: white;
   --sn-desktop-titlebar-bg-color: var(--primary-bg-color);
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--ui-text-color);
-  --sn-desktop-titlebar-ui-hover-color: var(--blue-color);
-  --sn-stylekit-shadow-color: var(--tertiary-bg-color);
+  --sn-desktop-titlebar-ui-hover-color: var(--sn-stylekit-info-color);
+  --sn-stylekit-shadow-color: #20202b;
   --sn-stylekit-background-color: #20202b;
   --sn-stylekit-border-color: var(--border-color);
   --sn-stylekit-foreground-color: var(--ui-text-color);
@@ -31,6 +31,8 @@
   --sn-stylekit-secondary-contrast-background-color: #45445a;
   --sn-stylekit-secondary-contrast-foreground-color: var(--ui-text-color);
   --sn-stylekit-secondary-contrast-border-color: var(--border-color);
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
   --sn-stylekit-paragraph-text-color: var(--ui-text-color);
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
 }
@@ -54,155 +56,6 @@
     opacity: 1;
     transform: scale(1);
   }
-}
-/* Editors */
-.CodeMirror {
-  background-color: var(--editor-bg-color) !important;
-  color: var(--editor-text-color) !important;
-  border: 0 !important;
-}
-
-.CodeMirror-cursor {
-  border-color: white;
-}
-
-.CodeMirror-selected {
-  background: var(--link-color) !important;
-}
-
-.CodeMirror-selectedtext {
-  color: white;
-}
-
-.CodeMirror-gutters {
-  background-color: var(--primary-bg-color) !important;
-  color: var(--editor-text-color) !important;
-  border-color: var(--border-color) !important;
-}
-
-.CodeMirror .cm-header {
-  font-family: arial;
-  color: var(--editor-text-color) !important;
-}
-
-.CodeMirror .cm-variable-2 {
-  font-family: arial;
-  color: var(--link-color) !important;
-}
-
-.CodeMirror .cm-link, .cm-string, .cm-keyword {
-  font-family: arial;
-  color: var(--editor-text-color) !important;
-}
-
-.CodeMirror .CodeMirror-linenumber {
-  color: gray !important;
-}
-
-/* Code Editor bottom toolbar */
-#select-wrapper {
-  background-color: var(--primary-bg-color) !important;
-  color: var(--editor-text-color) !important;
-  border-color: var(--border-color) !important;
-}
-
-/* Advanced Markdown top toolbar */
-.editor-toolbar {
-  background-color: var(--primary-bg-color) !important;
-  border-color: var(--border-color) !important;
-}
-
-.editor-toolbar::before, ::after {
-  background: 0 !important;
-}
-
-.editor-toolbar a {
-  color: var(--editor-text-color) !important;
-}
-
-.editor-toolbar a.active, .editor-toolbar a:hover {
-  border-color: transparent;
-  background: #454560;
-}
-
-.editor-toolbar.disabled-for-preview a:not(.no-disable) {
-  background: inherit;
-}
-
-.editor-preview-active, .editor-preview-active-side {
-  background-color: var(--primary-bg-color) !important;
-  border: 0 !important;
-  border-left: 1px solid var(--border-color) !important;
-}
-
-.editor-preview-active {
-  border: 0 !important;
-}
-
-#sn-advanced-markdown-editor .editor-preview.editor-preview-active pre, #sn-advanced-markdown-editor .editor-preview-side.editor-preview-active-side pre {
-  background-color: var(--secondary-bg-color);
-  padding: 20px;
-}
-
-/* Plus Editor */
-#plus-editor .note-editor.note-frame.fullscreen .note-editable {
-  background-color: var(--editor-bg-color) !important;
-  color: var(--editor-text-color) !important;
-}
-
-#plus-editor .panel {
-  background-color: var(--primary-bg-color) !important;
-}
-
-#plus-editor .panel-default > .panel-heading {
-  background-color: var(--primary-bg-color) !important;
-}
-
-#plus-editor .btn-default {
-  color: var(--editor-text-color) !important;
-  background-color: var(--accessory-bg-color) !important;
-  border-color: var(--primary-bg-color) !important;
-}
-
-#plus-editor .panel-heading {
-  border-color: var(--primary-bg-color) !important;
-}
-
-#plus-editor .dropdown-menu > li > a {
-  color: var(--editor-text-color);
-}
-
-.component-stack-border {
-  border-color: var(--border-color) !important;
-}
-
-/*SN Components */
-:root {
-  --body-text-color: var(--editor-text-color);
-  --body-background-color: var(--primary-bg-color);
-  --element-text-color: var(--ui-text-color);
-  --element-background-color: var(--accessory-bg-color);
-  --tint-color: var(--tertiary-bg-color);
-}
-
-.sn-component .element-background-color {
-  background-color: var(--sn-stylekit-secondary-background-color);
-}
-
-.sn-component .element-text-color {
-  color: var(--sn-stylekit-secondary-foreground-color);
-}
-
-.sn-component .body-background-color {
-  background-color: var(--sn-stylekit-background-color);
-}
-
-.sn-component .body-text-color {
-  color: var(--sn-stylekit-foreground-color);
-}
-
-.sn-component .border-color {
-  border-color: var(--sn-stylekit-borderd-color) !important;
 }
 
 /*# sourceMappingURL=dist.css.map */
