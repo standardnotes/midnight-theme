@@ -37,25 +37,4 @@
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
 }
 
-#app.ng-scope {
-  animation: fadein .3s normal ease-in-out;
-  animation-iteration-count: 1;
-  background-color: var(--primary-bg-color);
-  opacity: 1;
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0.5;
-    transform: scale(1.1);
-  }
-  50% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
 /*# sourceMappingURL=dist.css.map */
