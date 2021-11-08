@@ -2,7 +2,7 @@
   --primary-bg-color: #292937;
   --secondary-bg-color: #313142;
   --editor-bg-color: #202020;
-  --border-color: #13131a;
+  --border-color: #494965;
   --ui-text-color: #d8d8d8;
 
   --sn-stylekit-info-color: #4CA3FF;
@@ -29,7 +29,7 @@
   --sn-stylekit-shadow-color: #20202b;
 
   --sn-stylekit-background-color: #20202b;
-  --sn-stylekit-border-color: #494965;
+  --sn-stylekit-border-color: var(--border-color);
   --sn-stylekit-foreground-color: var(--ui-text-color);
 
   --sn-stylekit-contrast-background-color: var(--secondary-bg-color);
