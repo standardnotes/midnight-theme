@@ -1,5 +1,5 @@
 {
-  "name": "sn-theme-midnight",
+  "name": "@standardnotes/midnight-theme",
   "version": "1.2.6",
   "main": "dist/dist.css",
   "devDependencies": {
